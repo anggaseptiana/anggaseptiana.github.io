@@ -1,10 +1,19 @@
 .jumbotron {
   padding-top: 5rem;
-  background-color: #e2edff;
+  background-image: url("img/projects/p1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding-bottom: 0;
 }
 #projects {
-  background-color: #e2edff;
+  background-color: #273036;
 }
+
 section {
   padding-top: 5rem;
+}
+
+.bawah a {
+  text-decoration: none;
 }
