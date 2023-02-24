@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 .jumbotron {
   padding-top: 5rem;
   background-image: url("img/projects/project2.jpg");
@@ -12,4 +13,8 @@
 
 section {
   padding-top: 5rem;
+}
+
+body{
+  font-family: 'Philosopher', sans-serif;
 }
