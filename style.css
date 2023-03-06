@@ -18,3 +18,23 @@ section {
 body{
   font-family: 'PT Serif', serif;
 }
+
+/* projects styles */
+section.projects .projects-item{
+  border-radius: 25px;
+  border: 3px solid #FFF;
+  transition: .3s;
+  transform: scale(1) translateY(50px);
+  transition: .5s;
+  opacity: 0;
+}
+
+section.projects .projects-item.show{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+section.projects .projects-item:hover{
+  border: 3px solid #3576A5;
+  transform: scale(1.1);
+}

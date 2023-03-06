@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -56,10 +56,10 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center text-white">
+    <section id="home" class="jumbotron text-center text-white">
       <img src="img/angga.jpg" alt="Angga Septiana" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4" id="nama">Angga Septiana</h1>
-      <p class="lead">Student At STMIK IKMI Cirebon | Informatics Engineering | Web Developer</p>
+      <p class="lead">Student at STMIK IKMI Cirebon | Informatics Engineering | Web Developer</p>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -72,7 +72,7 @@
     <!-- Akhir Jumbotron -->
 
     <!-- About -->
-    <section id="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
@@ -100,7 +100,7 @@
     <!-- Akhir About -->
 
     <!-- Project -->
-    <section id="projects">
+    <section class="projects" id="projects">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
@@ -109,7 +109,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow projects-item overflow-hidden">
               <img src="img/projects/manajemen-aset.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Sistem Informasi Manajemen Aset berbasis Website yang dapat memudahkan dalam mengelola aset perusahaan dalam hal ini PT. Akeno Multimedia Solution.</p>
@@ -117,7 +117,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow projects-item overflow-hidden">
               <img src="img/projects/ppdb-tk.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Penerimaan Peserta Didik Baru berbasis Web pada TK Sirojul Huda Nagreg menggunakan framework Laravel dan JavaScript.</p>
@@ -125,7 +125,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow projects-item overflow-hidden">
               <img src="img/projects/p1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Comming Soon!</p>
@@ -133,7 +133,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow projects-item overflow-hidden">
               <img src="img/projects/p1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Comming Soon!</p>
@@ -153,7 +153,7 @@
     <!-- Akhir Project -->
 
     <!-- contact -->
-    <section id="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
@@ -219,5 +219,7 @@
         );
       }
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="style.js"></script>
   </body>
 </html>
